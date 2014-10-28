@@ -2,10 +2,8 @@ array=( $(< BuildNumber) )
 sum=$( IFS=+; echo "${array[*]}" | bc )
 echo "$(($sum+1))" > BuildNumber
 
-rm -r src/mods/pixelmon
-(cd src/mods;mkdir pixelmon)
-
-(cd src/mods/pixelmon;wget $(cat ../../../pixelmonURL.txt))
+(cd src/mods;rm Pixelmon*)
+(cd src/mods;wget $(cat ../../pixelmonURL.txt))
 
 java -cp LolnetLauncher.jar com.skcraft.launcher.builder.PackageBuilder --version "1.2.2" --manifest-dest "dist/manifest.json" --objects-dest "dist/objects" --files "src" --config "modpack.json" --objects-url "https://lolnet.co.nz/modpack/objects" --version-file "version.json" --libs-url "https://lolnet.co.nz/modpack/libraries"
 
