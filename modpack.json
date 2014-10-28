@@ -1,0 +1,15 @@
+{
+  "name": "Pixelmon Package",
+  "title": "Pixelmon",
+  "gameVersion": "1.7.10",
+  "launch": {
+    "flags": []
+  },
+  "userFiles": {
+    "include": [
+      "config/Pixelmon.cfg",
+      "options.txt",
+	  "servers.dat"
+    ]
+  }
+}

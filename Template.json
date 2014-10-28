@@ -1,0 +1,12 @@
+{
+"minimumVersion": 1, 
+"packages": [
+{
+"name": "Pixelmon Package", 
+"title": "Pixelmon", 
+"version": "MODPACKVERSION", 
+"location": "https://www.lolnet.co.nz/modpack/Pixelmonmanifest.json", 
+"priority": 1
+}
+]
+}
