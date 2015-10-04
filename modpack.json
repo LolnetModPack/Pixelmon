@@ -1,7 +1,7 @@
 {
   "name": "Pixelmon Package",
   "title": "Pixelmon",
-  "gameVersion": "1.7.10",
+  "gameVersion": "1.8",
   "launch": {
     "flags": []
   },
